@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px; /* Define a medida de 1rem. */
+  height: 100%;
 }
 
 *,
@@ -35,6 +36,10 @@ nav {
   font-weight: normal;
 }
 
+body {
+  min-height: 100vh;
+}
+
 ol,
 ul {
   list-style: none;
@@ -45,3 +50,31 @@ img {
   height: auto;
 }
 /* CSS RESET - END */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: transparent;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+}
+
+.app-container {
+  background: linear-gradient(110deg, lightcyan 0%, lightpink 100%);
+}
+/* TABLET */
+@media (min-width: 650px) {
+  .app-container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+}
+/* DESKTOP */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,5 @@
+@media and (min-width: 450px) {
+  html {
+    font-size: 18px;
+  }
+}

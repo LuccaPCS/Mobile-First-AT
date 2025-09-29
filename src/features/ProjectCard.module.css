@@ -1,0 +1,15 @@
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: center;
+  background-color: rgba(249, 249, 249, 0.35);
+  margin: 16px;
+}
+h2 {
+  margin-bottom: 8px;
+}
+p {
+  color: #666;
+}
