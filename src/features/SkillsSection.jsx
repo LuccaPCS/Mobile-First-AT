@@ -2,8 +2,10 @@ import SkillCard from "./SkillCard.jsx";
 
 export default function SkillsSection({ skills }) {
   return (
-    <section>
-      <h2 style={{ margin: "1rem 0" }}>Minhas Habilidades</h2>
+    <section className="skills-section">
+      <h2 className="skills-section-title" style={{ margin: "1rem 0" }}>
+        Minhas Habilidades
+      </h2>
       <div
         style={{
           border: "1px solid #ccc",

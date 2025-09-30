@@ -1,4 +1,5 @@
 import style from "./ProjectCard.module.css";
+import { ExternalLink } from "lucide-react";
 
 export default function ProjectCard({ title, description, link }) {
   return (
@@ -6,7 +7,7 @@ export default function ProjectCard({ title, description, link }) {
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        Ver Projeto
+        <ExternalLink size="24px" />
       </a>
     </div>
   );
