@@ -1,4 +1,4 @@
-Este projeto React consiste-se na entrega do AT da disciplina Mobile-first Ui com React. Ele foi construído utilizando Vite, uma ferramenta baseada em Node.js para compilação e hospedagem ultra-rápidos.
+Este projeto React consiste-se na entrega do AT da disciplina Mobile-first UI com React. Ele foi construído utilizando Vite, uma ferramenta baseada em Node.js para compilação e hospedagem ultra-rápidos.
 
 Para rodar o projeto localmente:
 - Clonar o repositório git em uma pasta local.
